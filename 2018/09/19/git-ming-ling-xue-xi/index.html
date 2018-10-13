@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-CN">
+<html lang="">
 <head>
     <head>
     <meta charset="utf-8">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 </head>
 
 <body>
@@ -192,7 +192,7 @@
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        如何发布hexo 的 博客
+                        git 命令 学习
                     </div>
                 </div>
             </div>
@@ -221,82 +221,10 @@
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h5 id="在跟几个同学一起-搭建尝试-用hexo-搭建完博客-之后-又互相商业互呲了-一波-突然-发现自己不知道怎么从头发布一篇博客了有没有-赶紧打开我的-度娘-谷歌-找到了-一篇-知识点-废话-不多说-开始我的表演-！！！"><a href="#在跟几个同学一起-搭建尝试-用hexo-搭建完博客-之后-又互相商业互呲了-一波-突然-发现自己不知道怎么从头发布一篇博客了有没有-赶紧打开我的-度娘-谷歌-找到了-一篇-知识点-废话-不多说-开始我的表演-！！！" class="headerlink" title="在跟几个同学一起  搭建尝试 用hexo   搭建完博客 之后 又互相商业互呲了  一波 突然  发现自己不知道怎么从头发布一篇博客了有没有 赶紧打开我的  度娘 谷歌  找到了 一篇 知识点 废话 不多说 开始我的表演  ！！！"></a>在跟几个同学一起  搭建尝试 用hexo   搭建完博客 之后 又互相商业互呲了  一波 突然  发现自己不知道怎么从头发布一篇博客了有没有 赶紧打开我的  度娘 谷歌  找到了 一篇 知识点 废话 不多说 开始我的表演  ！！！</h5><h3 id="创建-一个-博客"><a href="#创建-一个-博客" class="headerlink" title="创建 一个 博客"></a>创建 一个 博客</h3><pre><code class="bash">
- hexo n &quot;my article&quot; #完整命令为hexo new,用于新建一篇名为“my article”的文章
-
-</code></pre>
-<h2 id="Markdown-语法-常用命令"><a href="#Markdown-语法-常用命令" class="headerlink" title="Markdown 语法 常用命令"></a>Markdown 语法 常用命令</h2><h3 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h3><pre><code class="bash">
-# 这是一级标题
-## 这是二级标题
-### 这是三级标题
-#### 这是四级标题
-##### 这是五级标题
-###### 这是六级标题
-
-</code></pre>
-<h3 id="一、字体"><a href="#一、字体" class="headerlink" title="一、字体"></a>一、字体</h3><pre><code>
-**这是加粗的文字**
-*这是倾斜的文字*`
-***这是斜体加粗的文字***
-~~这是加删除线的文字~~
-
-</code></pre><h3 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用</h3><pre><code>
-&gt;这是引用的内容
-&gt;&gt;这是引用的内容
-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容
-
-</code></pre><hr>
+                <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">刚开始 初始化 一个 目录的时候</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> （注意编写文件的时候  选择  其他编辑工具  ue 或者 notepaid 格式选择utf-8）</span><br><span class="line">然后</span><br><span class="line">cd d:/github</span><br><span class="line">git init</span><br><span class="line">创建一个叫做  readme.txt 的文件</span><br><span class="line">git add 把文件添加到本地git库  （先进行 add）</span><br><span class="line"></span><br><span class="line">git commit -m &quot;wrote a readme file&quot; (然后进行commit)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">可以同时add  多个  然后一次性 commit</span><br><span class="line">然后  修改  一个 readme.txt 文件</span><br><span class="line">git status</span><br><span class="line"></span><br><span class="line">git diff</span><br><span class="line"></span><br><span class="line">git add</span><br><span class="line"></span><br><span class="line">git status</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>这是引用的内容</p>
-<blockquote>
-<blockquote>
-<p>不信你看</p>
-<blockquote>
-<p>hello beijing  hello  shanghai   </p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<h3 id="四、分割线"><a href="#四、分割线" class="headerlink" title="四、分割线"></a>四、分割线</h3><blockquote>
-<blockquote>
-<p>三个或者三个以上的 - 或者 * 都可以。<br><code>`</code></p>
-</blockquote>
-</blockquote>
-<hr>
-<hr>
-<hr>
-<hr>
-<pre><code>
-###  五、图片
-
-</code></pre><p><img src="图片地址" alt="图片alt" title="&#39;图片title&#39;"></p>
-<p>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p>
-<pre><code>
-![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
-u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)
-
-
-### 六、超链接
-
-</code></pre><p>语法:<br><a href="超链接地址" title="超链接title">超链接名</a><br>title可加可不加</p>
-<p><a href="http://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="http://baidu.com" target="_blank" rel="noopener">百度</a><br><a href="超链接地址" target="_blank">超链接名</a><br>例:<a href="https://doudouchen.cn" target="_blank">豆豆陈</a></p>
-<pre><code>[个人博客](doudouchen.cn)
-
-
-
-###  七、代码
-
-</code></pre><p>语法：<br>单行代码：代码之间分别用一个反引号包起来</p>
-<pre><code>`代码内容`
-</code></pre><p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p>
-<pre><code>
-</code></pre><p>public static  void main (String[] args){<br>system.out.println(“hhh”);</p>
-<p>}</p>
-<p><code>`</code></p>
-<hr>
-<blockquote>
-<p>学习于简书 <a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">https://www.jianshu.com/p/191d1e21f7ed</a></p>
+<p><a href="https://blog.csdn.net/r8l8q8/article/details/80015330" target="_blank" rel="noopener">https://blog.csdn.net/r8l8q8/article/details/80015330</a></p>
 </blockquote>
 
             </div>
@@ -425,7 +353,7 @@ u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)
 
 <div id="article-share">
     
-    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
     
 </div>
 
@@ -433,10 +361,10 @@ u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">转载请注明: </span>
+                    <span class="reprint-tip">Reprint please specify: </span>
                     <a href="https://github.com/wamk/wamk.github.io.git" class="b-link-green">DouDouChen</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/09/19/如何发布hexo-的-博客/" class="b-link-green">如何发布hexo 的 博客</a>
+                    <a href="/2018/09/19/git-ming-ling-xue-xi/" class="b-link-green">git 命令 学习</a>
                 </p>
             </div>
         </div>
@@ -453,10 +381,10 @@ u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">上一篇</div>
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">Current</div>
             <div class="card">
-                <a href="/2018/09/19/git-命令-学习/">
+                <a href="/2018/09/19/git-ming-ling-xue-xi/">
                     <div class="card-image">
                         
                         
@@ -466,19 +394,11 @@ u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg &quot;区块链&quot;)
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">刚开始 初始化 一个 目录的时候
-
-
- （注意编写文件的时候  选择  其他编辑工具  ue 或者 notepaid 格式选择utf-8）
-然后
-cd d:/github
-git init
-创建一个叫做  readme.txt 的文件
-gi</div>
+                    <div class="summary">1234567891011刚开始 初始化 一个 目录的时候 （注意编写文件的时候  选择  其他编辑工具  ue 或者 notepaid 格式选择utf-8）然后cd d:/githubgit init创建一个叫做  readme.txt </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
@@ -487,34 +407,34 @@ gi</div>
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="article-badge right-badge text-color">Next</div>
             <div class="card">
-                <a href="/2018/09/11/docker/">
+                <a href="/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Docker">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="如何发布hexo 的 博客">
                         
-                        <span class="card-title">Docker</span>
+                        <span class="card-title">如何发布hexo 的 博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
-hello docker !!!</div>
+                    <div class="summary">前言在跟几个同学一起  搭建尝试 用hexo   搭建完博客 之后 又互相商业互呲了  一波 突然  发现自己不知道怎么从头发布一篇博客了有没有 赶紧打开我的  度娘 谷歌  找到了 一篇 知识点 废话 不多说 开始我的表演  ！！！创建 </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-11
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-19
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            wamk
+                            cy
                             
                         </span>
                     </div>
@@ -561,8 +481,8 @@ hello docker !!!</div>
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+            <span class="title">Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
                    class="search-input" autofocus="">
         </div>
         <div id="searchResult"></div>
