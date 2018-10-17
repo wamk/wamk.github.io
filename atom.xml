@@ -55,7 +55,12 @@
       
         
         
-          &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+          &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;刚开始 初始化 一个 目录的时候
+
+
+ （注意编写文件的时候  选择  其他编辑工具  ue 或者 notepaid 格式选择utf-8）
+然后
+&lt;span
         
       
     
@@ -69,7 +74,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/</id>
     <published>2018-09-19T10:56:06.000Z</published>
-    <updated>2018-10-17T13:41:20.644Z</updated>
+    <updated>2018-10-17T13:48:36.506Z</updated>
     
     <summary type="html">
     
