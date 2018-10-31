@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2018-10-20T14:20:15.010Z</updated>
+  <updated>2018-10-31T11:28:40.805Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/10/20/ru-he-kan-dai-s8-rng-2-3-g2/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/10/20/ru-he-kan-dai-s8-rng-2-3-g2/</id>
     <published>2018-10-20T13:59:26.000Z</published>
-    <updated>2018-10-20T14:20:15.010Z</updated>
+    <updated>2018-10-31T11:28:40.805Z</updated>
     
     <summary type="html">
     
@@ -45,7 +45,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/10/15/shell-jiao-ben-xue-xi/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/10/15/shell-jiao-ben-xue-xi/</id>
     <published>2018-10-15T13:01:17.000Z</published>
-    <updated>2018-10-17T13:37:31.069Z</updated>
+    <updated>2018-10-31T11:29:05.591Z</updated>
     
     <summary type="html">
     
@@ -62,7 +62,7 @@
       <category term="Markdown" scheme="https://github.com/wamk/wamk.github.io.git/categories/Markdown/"/>
     
     
-      <category term="Markdown" scheme="https://github.com/wamk/wamk.github.io.git/tags/Markdown/"/>
+      <category term="shell" scheme="https://github.com/wamk/wamk.github.io.git/tags/shell/"/>
     
   </entry>
   
@@ -71,7 +71,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/09/19/git-ming-ling-xue-xi/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/09/19/git-ming-ling-xue-xi/</id>
     <published>2018-09-19T12:25:45.000Z</published>
-    <updated>2018-10-17T13:33:38.221Z</updated>
+    <updated>2018-10-31T11:29:01.966Z</updated>
     
     <summary type="html">
     
@@ -91,27 +91,7 @@
     </summary>
     
     
-  </entry>
-  
-  <entry>
-    <title>如何发布hexo 的 博客</title>
-    <link href="https://github.com/wamk/wamk.github.io.git/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/"/>
-    <id>https://github.com/wamk/wamk.github.io.git/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/</id>
-    <published>2018-09-19T10:56:06.000Z</published>
-    <updated>2018-10-17T14:17:26.173Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h5
-        
-      
-    
-    </summary>
-    
+      <category term="git" scheme="https://github.com/wamk/wamk.github.io.git/tags/git/"/>
     
   </entry>
   
@@ -120,7 +100,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/09/11/docker/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/09/11/docker/</id>
     <published>2018-09-11T12:01:09.000Z</published>
-    <updated>2018-10-20T14:19:21.244Z</updated>
+    <updated>2018-10-31T11:28:56.045Z</updated>
     
     <summary type="html">
     
