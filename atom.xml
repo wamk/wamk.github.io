@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2018-12-03T13:56:27.761Z</updated>
+  <updated>2018-12-03T14:21:15.003Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -15,6 +15,85 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux 常用命令</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/linux-chang-yong-ming-ling/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/linux-chang-yong-ming-ling/</id>
+    <published>2018-12-03T14:10:46.000Z</published>
+    <updated>2018-12-03T14:21:15.003Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;用户命令&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;显示当前目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;后面不加东西就回到家目录（/home/用户），加的话就到某地址，绝对路径则从/开始，.表示当前目录，..到上一级目录，-表示上一
+        
+      
+    
+    </summary>
+    
+    
+      <category term="linxu" scheme="https://github.com/wamk/wamk.github.io.git/tags/linxu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Oracle取月份-不带前面的0</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-qu-yue-fen-bu-dai-qian-mian-de-0/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-qu-yue-fen-bu-dai-qian-mian-de-0/</id>
+    <published>2018-12-03T14:03:42.000Z</published>
+    <updated>2018-12-03T14:09:47.292Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;第一： 利用to_number的函数转换自动截0 &lt;/p&gt;
+&lt;pre class=&quot; language-SQL&quot;&gt;&lt;code class=&quot;language-SQL&quot;&gt;select
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ORACLE" scheme="https://github.com/wamk/wamk.github.io.git/tags/ORACLE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>oracle  ora00600错误代码</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-ora00600-cuo-wu-dai-ma/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-ora00600-cuo-wu-dai-ma/</id>
+    <published>2018-12-03T14:01:12.000Z</published>
+    <updated>2018-12-03T14:01:51.670Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;方法/步骤&lt;/p&gt;
+&lt;p&gt;进入CMD ,执行  set oracle_sid=orcl&lt;/p&gt;
+&lt;p&gt;运行  sqlplus scott/tiger as sysdba 2/2 分步阅读 最简单的解决方式： 1、shutdown immediate; 2、startup
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ORACLE" scheme="https://github.com/wamk/wamk.github.io.git/tags/ORACLE/"/>
+    
+  </entry>
   
   <entry>
     <title>软件测试</title>

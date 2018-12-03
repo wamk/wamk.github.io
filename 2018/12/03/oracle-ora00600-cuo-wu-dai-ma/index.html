@@ -184,21 +184,161 @@
     </nav>
 </header>
 
-<div class="bg-cover about-cover" style="background-image: url('/medias/cover.jpg')">
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+            <div class="col s12 m12 l12">
                 <div class="brand">
-                    <div class="title center-align">
-                    
-                        未来世界的幸存者
-                    
+                    <div class="description center-align post-title">
+                        oracle  ora00600错误代码
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                    <div class="description center-align">
-                    
-                        未来世界 是怎么样的？
-                    
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/ORACLE/" target="_blank">
+                    <span class="chip bg-color">ORACLE</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2018-12-03
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>方法/步骤</p>
+<p>进入CMD ,执行  set oracle_sid=orcl</p>
+<p>运行  sqlplus scott/tiger as sysdba 2/2 分步阅读 最简单的解决方式： 1、shutdown immediate; 2、startup mount; 3、alter database open;  </p>
+<p><img src="D:/YDYnotePad/qqA9A38C93AA41FA51E993A33E4E148182/69635811f9764d8badadfd92d6a62d1b/8a82b9011486.png" alt="img"></p>
+<p> 2/2 如果第一步没解决，再进行下面的操作 1、shutdown immediate; 2、startup mount; 3、recover database using backup controlfile; 4、指定日志：输入你的最新的日志文件位置。 5、alter database open resetlogs; 6、shutdown immediate; 7、startup;</p>
+<p><img src="D:/YDYnotePad/qqA9A38C93AA41FA51E993A33E4E148182/7d98a7b986074a1ea0b83f12eac9924e/3912b31bee58.png" alt="img"></p>
+<p><a href="https://jingyan.baidu.com/article/90bc8fc89f3a5ff653640c27.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/90bc8fc89f3a5ff653640c27.html</a></p>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                 </div>
             </div>
@@ -207,210 +347,132 @@
 </div>
 
 <script>
-// Dynamically switch banner pictures every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
 </script>
+            
 
-<main class="content">
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
 
+<div id="article-share">
     
-    <div class="container notice">
-        <div class="card">
-            <div class="card-content">
-                <i class="fa fa-volume-up fa-lg fa-fw text-color"></i>每个人的生活都是一条通向自身的道路。每个人的真正职责只有一个：找到自我。然后在心中坚守一生，全心全意，永不停息。
+    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">Reprint please specify: </span>
+                    <a href="https://github.com/wamk/wamk.github.io.git" class="b-link-green">DouDouChen</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2018/12/03/oracle-ora00600-cuo-wu-dai-ma/" class="b-link-green">oracle  ora00600错误代码</a>
+                </p>
             </div>
         </div>
     </div>
+
+    
+
     
 
     
 
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/19/git-ming-ling-xue-xi/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="git 命令 学习">
-                            
-                            <span class="card-title">git 命令 学习</span>
-                        </div>
-                    </a>
+    
 
-                    <div class="card-content article-content">
-                        <div class="summary">刚开始 初始化 一个 目录的时候
-
-
- （注意编写文件的时候  选择  其他编辑工具  ue 或者 notepaid 格式选择utf-8）
-</div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                chen yong
-                                
-                            </span>
-                        </div>
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">Previous</div>
+            <div class="card">
+                <a href="/2018/12/03/oracle-qu-yue-fen-bu-dai-qian-mian-de-0/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Oracle取月份-不带前面的0">
+                        
+                        <span class="card-title">Oracle取月份-不带前面的0</span>
                     </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">第一： 利用to_number的函数转换自动截0 
+select to_number(to_char(sysdate,'mm'))||'-'||to_number(to_char(sysdate,'dd')) from dual; 
 
+第二</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-03
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            chen yong
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
                     
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/git/" target="_blank">
-                            <span class="chip bg-color">git</span>
-                        </a>
-                        
-                    </div>
+                    <a href="/tags/ORACLE/" target="_blank">
+                        <span class="chip bg-color">ORACLE</span>
+                    </a>
                     
                 </div>
+                
             </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="如何发布hexo 的 博客">
-                            
-                            <span class="card-title">如何发布hexo 的 博客</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">前言在跟几个同学一起  搭建尝试 用hexo   搭建完博客 之后 又互相商业互呲了  一波 突然  发现自己不知道怎么从头发布一篇博客了有</div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                cy
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/hexo/" target="_blank">
-                            <span class="chip bg-color">hexo</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/11/docker/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Docker">
-                            
-                            <span class="card-title">Docker</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，</div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                chen yong
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Docker/" target="_blank">
-                            <span class="chip bg-color">Docker</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/09/10/hello-world/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">Welcome to Hexo! This is your very first post. Check documentation for</div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                wamk
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
         </div>
-    </article>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">Next</div>
+            <div class="card">
+                <a href="/2018/12/03/ruan-jian-ce-shi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="软件测试">
+                        
+                        <span class="card-title">软件测试</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">1，测试的划分
+
+单元测试：
+单元测试（unit testing），是指对软件中的最小可测试单元进行检查和验证。
+集成测试（也叫组装测试，联合测试）是单元测试的逻辑扩展。它最简单的形式是：把两个已经测试过的单元组合成一个组件，测试它们之间的</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            chen yong
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+    
 
 </main>
-
-
-<div class="container paging">
-    <div class="row">
-        <div class="col s6 m4 l4">
-            
-            <a href="/"
-               class="left btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fa fa-angle-left"></i>
-            </a>
-            
-        </div>
-        <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">2 / 2</div>
-        </div>
-        <div class="col s6 m4 l4">
-            
-            <a class="right btn-floating btn-large disabled">
-                <i class="fa fa-angle-right"></i>
-            </a>
-            
-        </div>
-    </div>
-</div>
-
-
 
 <footer class="page-footer bg-color">
     <div class="container row center-align">
