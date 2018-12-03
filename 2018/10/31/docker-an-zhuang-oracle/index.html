@@ -212,8 +212,8 @@
             
             <div class="article-tag">
                 
-                <a href="/tags/Docker-ORACLE/" target="_blank">
-                    <span class="chip bg-color">Docker,ORACLE</span>
+                <a href="/tags/Docker/" target="_blank">
+                    <span class="chip bg-color">Docker</span>
                 </a>
                 
             </div>
@@ -229,7 +229,7 @@
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="1-安装docker并启动docker服务"><a href="#1-安装docker并启动docker服务" class="headerlink" title="1. 安装docker并启动docker服务"></a>1. 安装docker并启动docker服务</h4><pre class=" language-sh"><code class="language-sh"> sudo yum install docker（安装 docker）
+                <h4 id="1-安装docker并启动docker服务"><a href="#1-安装docker并启动docker服务" class="headerlink" title="1. 安装docker并启动docker服务"></a>1. 安装docker并启动docker服务</h4><pre class=" language-shell"><code class="language-shell"> sudo yum install docker（安装 docker）
  sudo systemctl start docker 或者 service docker start
 </code></pre>
 <h4 id="2-下载oracle-xe-11g镜像"><a href="#2-下载oracle-xe-11g镜像" class="headerlink" title="2. 下载oracle-xe-11g镜像"></a>2. 下载oracle-xe-11g镜像</h4><pre class=" language-sh"><code class="language-sh">sudo docker pull sath89/oracle-xe-11g  
@@ -245,7 +245,7 @@
 <pre class=" language-sh"><code class="language-sh">sudo docker  exec -it oracle-xe-11g /bin/bash
 </code></pre>
 <h4 id="5-plsql-远程连接-库"><a href="#5-plsql-远程连接-库" class="headerlink" title="5.plsql 远程连接 库"></a>5.plsql 远程连接 库</h4><p>docker 查看</p>
-<pre class=" language-sh"><code class="language-sh">show parameter service_names
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">show</span> parameter service_names
 </code></pre>
 <p>新建的admin目录下创建一个tnsnames.ora的文件，写入文件配置：</p>
 <pre class=" language-sql"><code class="language-sql">MyDB<span class="token operator">=</span>
@@ -429,27 +429,29 @@ docker rm [容器id]
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">Current</div>
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">Previous</div>
             <div class="card">
-                <a href="/2018/10/31/docker-an-zhuang-oracle/">
+                <a href="/2018/12/03/oracle-jia-qiang-xue-xi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="docker 安装 oracle ">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="ORACLE 加强学习">
                         
-                        <span class="card-title">docker 安装 oracle </span>
+                        <span class="card-title">ORACLE 加强学习</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">1. 安装docker并启动docker服务 sudo yum install docker（安装 docker）
- sudo systemctl start docker 或者 service docker start
-
-2. 下载ora</div>
+                    <div class="summary">本次知识点1,掌握 oracle中把一张表中的数据复制到另一张表中去
+2,oraclhe中创建索引
+3, oracle中临时表的创建
+4,oracle中创建视图
+5,oracle中删除drop truncate delete 的区别
+ 6,</div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-31
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
@@ -458,12 +460,11 @@ docker rm [容器id]
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Docker-ORACLE/" target="_blank">
-                        <span class="chip bg-color">Docker,ORACLE</span>
+                    <a href="/tags/ORACLE/" target="_blank">
+                        <span class="chip bg-color">ORACLE</span>
                     </a>
                     
                 </div>
