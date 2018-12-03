@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2018-12-03T14:21:15.003Z</updated>
+  <updated>2018-12-03T14:38:01.954Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oracle SQL语句之常见优化方法总结</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-sql-yu-ju-zhi-chang-jian-you-hua-fang-fa-zong-jie/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-sql-yu-ju-zhi-chang-jian-you-hua-fang-fa-zong-jie/</id>
+    <published>2018-12-03T14:23:08.000Z</published>
+    <updated>2018-12-03T14:38:01.954Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;（以下 方法不能盲信 要以实际情况为准  只是提供一份蓝本）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;下面列举一些工作中常常会碰到的Oracle的SQL语句优化方法：&lt;/p&gt;
+&lt;p&gt;1、SQL语句尽量用大写的；&lt;/p&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ORACLE" scheme="https://github.com/wamk/wamk.github.io.git/tags/ORACLE/"/>
+    
+  </entry>
   
   <entry>
     <title>linux 常用命令</title>
@@ -100,7 +127,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/ruan-jian-ce-shi/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/ruan-jian-ce-shi/</id>
     <published>2018-12-03T13:55:29.000Z</published>
-    <updated>2018-12-03T13:56:27.761Z</updated>
+    <updated>2018-12-03T14:23:51.020Z</updated>
     
     <summary type="html">
     
@@ -115,6 +142,8 @@
     
     </summary>
     
+    
+      <category term="软件测试" scheme="https://github.com/wamk/wamk.github.io.git/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
