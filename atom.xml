@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2018-12-03T14:39:37.968Z</updated>
+  <updated>2018-12-03T14:45:58.824Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>oracle 回收站</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-hui-shou-zhan/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-hui-shou-zhan/</id>
+    <published>2018-12-03T14:45:38.000Z</published>
+    <updated>2018-12-03T14:45:58.824Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;回收站概念&quot;&gt;&lt;a href=&quot;#回收站概念&quot; class=&quot;headerlink&quot; title=&quot;回收站概念&quot;&gt;&lt;/a&gt;回收站概念&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;从ORACLE 10g开始，引入了一个叫回收站(Recycle
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ORALCE" scheme="https://github.com/wamk/wamk.github.io.git/tags/ORALCE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Oracle的11g自动统计信息</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-de-11g-zi-dong-tong-ji-xin-xi/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/oracle-de-11g-zi-dong-tong-ji-xin-xi/</id>
+    <published>2018-12-03T14:43:10.000Z</published>
+    <updated>2018-12-03T14:45:06.486Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一、Oracle 11g&lt;br&gt;在Oracle的11g版本中提供了统计数据自动收集的功能。在部署安装11g Oracle软件过程中，其中有一个步骤便是提示是否启动这个功能(默认是启用这个功能)。&lt;br&gt;在这里介绍一下怎么将该功能启用与禁用：&lt;/p&gt;
+&lt;pre
+        
+      
+    
+    </summary>
+    
+    
+      <category term="ORACLE" scheme="https://github.com/wamk/wamk.github.io.git/tags/ORACLE/"/>
+    
+  </entry>
   
   <entry>
     <title>知识时代我们的焦虑 </title>
