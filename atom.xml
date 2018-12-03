@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2018-12-03T13:42:32.588Z</updated>
+  <updated>2018-12-03T13:56:27.761Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件测试</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/ruan-jian-ce-shi/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/ruan-jian-ce-shi/</id>
+    <published>2018-12-03T13:55:29.000Z</published>
+    <updated>2018-12-03T13:56:27.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1，测试的划分&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;D:/YDYnotePad/qqA9A38C93AA41FA51E993A33E4E148182/0efece6febee413bbae17aeeb3907595/clipboard.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spark-Hadoop、Hive、Spark 之间是什么关系？</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/spark-hadoop-hive-spark-zhi-jian-shi-shi-me-guan-xi/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/spark-hadoop-hive-spark-zhi-jian-shi-shi-me-guan-xi/</id>
+    <published>2018-12-03T13:52:06.000Z</published>
+    <updated>2018-12-03T13:56:08.156Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;作者：Xiaoyu Ma&lt;/p&gt;
+&lt;p&gt;链接：&lt;a href=&quot;https://www.zhihu.com/question/27974418/answer/38965760&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="BIGDATA" scheme="https://github.com/wamk/wamk.github.io.git/tags/BIGDATA/"/>
+    
+  </entry>
   
   <entry>
     <title>ORACLE 加强学习</title>
