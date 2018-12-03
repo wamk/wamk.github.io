@@ -227,7 +227,7 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2018/12/03/spark-hadoop-hive-spark-zhi-jian-shi-shi-me-guan-xi/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2018/12/03/spark-hadoop-hive-spark-zhi-jian-shi-shi-me-guan-xi/</id>
     <published>2018-12-03T13:52:06.000Z</published>
-    <updated>2018-12-03T13:56:08.156Z</updated>
+    <updated>2018-12-03T14:50:23.611Z</updated>
     
     <summary type="html">
     
@@ -235,8 +235,7 @@
       
         
         
-          &lt;p&gt;作者：Xiaoyu Ma&lt;/p&gt;
-&lt;p&gt;链接：&lt;a href=&quot;https://www.zhihu.com/question/27974418/answer/38965760&quot; target=&quot;_blank&quot;
+          &lt;p&gt;大数据本身是个很宽泛的概念，Hadoop生态圈（或者泛生态圈）基本上都是为了处理超过单机尺度的数据处理而诞生的。你可以把它比作一个厨房所以需要的各种工具。锅碗瓢盆，各有各的用处，互相之间又有重合。你可以用汤锅直接当碗吃饭喝汤，你可以用小刀或者刨子去皮。但是每个工具有自己的特
         
       
     
