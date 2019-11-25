@@ -3,6 +3,56 @@
   
     
     <entry>
+      <title>关于职业规划的迷茫</title>
+      <link href="/2019/11/25/guan-yu-zhi-ye-gui-hua-de-mi-mang/"/>
+      <url>/2019/11/25/guan-yu-zhi-ye-gui-hua-de-mi-mang/</url>
+      
+        <content type="html"><![CDATA[<h3 id="颓废了一段时间，迷失了方向我要重新开始学习之路啦！！！"><a href="#颓废了一段时间，迷失了方向我要重新开始学习之路啦！！！" class="headerlink" title="颓废了一段时间，迷失了方向我要重新开始学习之路啦！！！"></a>颓废了一段时间，迷失了方向我要重新开始学习之路啦！！！</h3><p>时间匆匆过去转眼间从2018的四月份到今天已经过去 一年八个月啦 !<br>从刚出校园的青涩，信心满满 到现在的麻木，混乱的生活状态。有一种想法要行动起来，<br>记录下自己的点滴，来告诉自己那些做得好要坚持，那些是坏习惯要学会改变。<br>回望过去的自己，立足现在 ，展望未来 </p><p>18年毕业的时候学习的java，毕业的时候自己的选择+当时的情况 选择了oracle数据库开发这条道路，<br>因为进的第一个项目组是银行外包类的项目，在第一个项目中从刚开始进项目组让我随便看点东西，到后来<br>因为人员的流动，慢慢就只剩下项目经理和我两个后台的时候，项目经理开始有意识的教我更多东西，感谢<br>大哥的指引，因为之前有过java和数据库的经验在学习这些的时候上手很快，当工作一段时间之后，就感觉到了<br>一种很安逸的养老的感觉，感觉只剩下了业务知识积累，这个项目组的技术架构已经很老了 （<code>jdk6.0+ oracle11g</code>） 。 之后就一种很慌得状态，想着自己年纪轻轻的技术要多学点，<br>想着出去试试面试面试，就开始投简历，基本上投递都会有面试，这比去年面试java的时候好多了 面试了四五家公司。，可是结果四五家面下来 没有找到合适的offer。<br>我自己来分个类的话就是 3家数据库公司和一个物流大数据的公司，面试完的时候都感觉自己挺好的哈哈<br>要了11k 有的要了9k  其中一家给了8k 一个给了offer，两家被pass ，结果最后哪都没去 留在了现在的公司。<br>可是我肯定想不到现在的公司会这么拖沓，以后再说 。</p><p> 年底的时候，因为年限不到入不了场的问题，被调到了另一个项目组。</p><p>来到这个项目组的时候，是一个很新的系统 用到了流行的java微服务架构和python技术 因为数据库还是采取的oracle数据库，于是我又摇身一变变成了数据库库管理员（emmm）. 差不多在那边用oracle存储过程开发业务逻辑 封装非常复杂逻辑。这边逻辑倒是不复杂 ，就是需要用oracle 搭建读写分离的环境，还好留的有文档 于是边看边学    倒是学习了不少dba的东西 来了这边之后 因为自己一直要去健身的原因，除了在公司学习查资料之外 ，</p><p>慢慢的怠慢了自身的学习扩展，就属于那种晚上很焦虑 告诉自己要多学点东西啊，然后第二天起来该干嘛就干嘛的那种 （哈哈） 记录下自己现在的问题 ，和不错的习惯 自我克服自己定制计划</p><p>问题：</p><p>1，看文章多而不思考，跳章节 注意力无法集中</p><p>2，睡眠 吃饭不够规律 喜欢熬夜</p><p>3，沟通问题不够准确到位</p><p>4，想学的东西太杂，学会让大脑置空</p><p>优点：</p><p>1， 坚持锻炼身体 一周去四次健身房</p><p>2，有一颗想学习和进步的心</p><p>3，办事情有责任性 </p><p>4，年轻 ，会主动自我调整</p><p>要采取的行动：</p><ol><li><p>养成规律的 饮食 （一天四顿饭）休息习惯 （晚上11:00 早上8:00）</p><p>2， 明确要学习的目标 数据库+大数据(  java捡起来) 为主</p><p>3,  思考过后沟通准确而高效  </p></li></ol><p><u>向上吧!!少年</u></p><p><strong>自己给自己加油!!!!<img src="C:\Users\Administrator\Pictures\Saved Pictures\333.jpg" alt=""></strong>  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 职业发展 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>oracle 自动修复工具rman笔记整理</title>
+      <link href="/2019/11/25/oracle-zi-dong-xiu-fu-gong-ju-rman-bi-ji-zheng-li/"/>
+      <url>/2019/11/25/oracle-zi-dong-xiu-fu-gong-ju-rman-bi-ji-zheng-li/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>oracle OCP证书考试笔记</title>
+      <link href="/2019/11/25/oracle-ocp-zheng-shu-kao-shi-bi-ji/"/>
+      <url>/2019/11/25/oracle-ocp-zheng-shu-kao-shi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>oracle生产DG搭建读写分离总结</title>
+      <link href="/2019/11/25/oracle-sheng-chan-dg-da-jian-du-xie-fen-chi-zong-jie/"/>
+      <url>/2019/11/25/oracle-sheng-chan-dg-da-jian-du-xie-fen-chi-zong-jie/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
       <title>hadoop</title>
       <link href="/2019/02/25/hadoop-fa-zhan-bei-jing/"/>
       <url>/2019/02/25/hadoop-fa-zhan-bei-jing/</url>

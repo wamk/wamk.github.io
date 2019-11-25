@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2019-02-25T14:17:03.331Z</updated>
+  <updated>2019-11-25T14:41:12.314Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于职业规划的迷茫</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2019/11/25/guan-yu-zhi-ye-gui-hua-de-mi-mang/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2019/11/25/guan-yu-zhi-ye-gui-hua-de-mi-mang/</id>
+    <published>2019-11-25T13:45:57.000Z</published>
+    <updated>2019-11-25T14:41:12.314Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;颓废了一段时间，迷失了方向我要重新开始学习之路啦！！！&quot;&gt;&lt;a href=&quot;#颓废了一段时间，迷失了方向我要重新开始学习之路啦！！！&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="职业发展" scheme="https://github.com/wamk/wamk.github.io.git/tags/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>oracle 自动修复工具rman笔记整理</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-zi-dong-xiu-fu-gong-ju-rman-bi-ji-zheng-li/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-zi-dong-xiu-fu-gong-ju-rman-bi-ji-zheng-li/</id>
+    <published>2019-11-25T13:45:28.000Z</published>
+    <updated>2019-11-25T13:45:28.661Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>oracle OCP证书考试笔记</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-ocp-zheng-shu-kao-shi-bi-ji/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-ocp-zheng-shu-kao-shi-bi-ji/</id>
+    <published>2019-11-25T13:44:30.000Z</published>
+    <updated>2019-11-25T13:44:30.647Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>oracle生产DG搭建读写分离总结</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-sheng-chan-dg-da-jian-du-xie-fen-chi-zong-jie/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-sheng-chan-dg-da-jian-du-xie-fen-chi-zong-jie/</id>
+    <published>2019-11-25T13:43:37.000Z</published>
+    <updated>2019-11-25T13:43:37.434Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>hadoop</title>
@@ -418,76 +484,6 @@
     
     
       <category term="git" scheme="https://github.com/wamk/wamk.github.io.git/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何发布hexo 的 博客</title>
-    <link href="https://github.com/wamk/wamk.github.io.git/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/"/>
-    <id>https://github.com/wamk/wamk.github.io.git/2018/09/19/ru-he-fa-bu-hexo-de-bo-ke/</id>
-    <published>2018-09-19T10:56:06.000Z</published>
-    <updated>2018-12-03T13:48:54.075Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h5
-        
-      
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://github.com/wamk/wamk.github.io.git/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Docker</title>
-    <link href="https://github.com/wamk/wamk.github.io.git/2018/09/11/docker/"/>
-    <id>https://github.com/wamk/wamk.github.io.git/2018/09/11/docker/</id>
-    <published>2018-09-11T12:01:09.000Z</published>
-    <updated>2018-12-03T13:44:22.225Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Docker 是一个&lt;a href=&quot;https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/246339&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Docker" scheme="https://github.com/wamk/wamk.github.io.git/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://github.com/wamk/wamk.github.io.git/2018/09/10/hello-world/"/>
-    <id>https://github.com/wamk/wamk.github.io.git/2018/09/10/hello-world/</id>
-    <published>2018-09-10T14:02:49.258Z</published>
-    <updated>2018-10-17T13:32:43.341Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
