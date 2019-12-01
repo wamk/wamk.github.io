@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/wamk/wamk.github.io.git/"/>
-  <updated>2019-11-25T14:41:12.314Z</updated>
+  <updated>2019-12-01T03:08:35.279Z</updated>
   <id>https://github.com/wamk/wamk.github.io.git/</id>
   
   <author>
@@ -17,11 +17,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>马斯诺需求层次理论</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2019/12/01/ma-si-nuo-xu-qiu-ceng-ci-li-lun/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2019/12/01/ma-si-nuo-xu-qiu-ceng-ci-li-lun/</id>
+    <published>2019-12-01T03:03:20.000Z</published>
+    <updated>2019-12-01T03:08:35.279Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;马斯洛需求层次理论&quot;&gt;&lt;a href=&quot;#马斯洛需求层次理论&quot; class=&quot;headerlink&quot; title=&quot;马斯洛需求层次理论&quot;&gt;&lt;/a&gt;马斯洛需求层次理论&lt;/h2&gt;&lt;p&gt;马斯洛需要层次理论是&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://github.com/wamk/wamk.github.io.git/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>expdp 和impdp 的应用</title>
+    <link href="https://github.com/wamk/wamk.github.io.git/2019/11/30/expdp-he-impdp-de-ying-yong/"/>
+    <id>https://github.com/wamk/wamk.github.io.git/2019/11/30/expdp-he-impdp-de-ying-yong/</id>
+    <published>2019-11-30T06:50:46.000Z</published>
+    <updated>2019-11-30T06:50:46.619Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>关于职业规划的迷茫</title>
     <link href="https://github.com/wamk/wamk.github.io.git/2019/11/25/guan-yu-zhi-ye-gui-hua-de-mi-mang/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2019/11/25/guan-yu-zhi-ye-gui-hua-de-mi-mang/</id>
     <published>2019-11-25T13:45:57.000Z</published>
-    <updated>2019-11-25T14:41:12.314Z</updated>
+    <updated>2019-11-25T14:43:39.947Z</updated>
     
     <summary type="html">
     
@@ -59,12 +97,22 @@
     <link href="https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-ocp-zheng-shu-kao-shi-bi-ji/"/>
     <id>https://github.com/wamk/wamk.github.io.git/2019/11/25/oracle-ocp-zheng-shu-kao-shi-bi-ji/</id>
     <published>2019-11-25T13:44:30.000Z</published>
-    <updated>2019-11-25T13:44:30.647Z</updated>
+    <updated>2019-11-30T07:54:42.848Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;h3 id=&quot;第一天-oracle-程序安装&quot;&gt;&lt;a href=&quot;#第一天-oracle-程序安装&quot; class=&quot;headerlink&quot; title=&quot;第一天  oracle 程序安装&quot;&gt;&lt;/a&gt;第一天  oracle
+        
+      
+    
     </summary>
     
+    
+      <category term="OCP" scheme="https://github.com/wamk/wamk.github.io.git/tags/OCP/"/>
     
   </entry>
   
@@ -429,61 +477,6 @@
     
     
       <category term="英雄联盟" scheme="https://github.com/wamk/wamk.github.io.git/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell 脚本学习</title>
-    <link href="https://github.com/wamk/wamk.github.io.git/2018/10/15/shell-jiao-ben-xue-xi/"/>
-    <id>https://github.com/wamk/wamk.github.io.git/2018/10/15/shell-jiao-ben-xue-xi/</id>
-    <published>2018-10-15T13:01:17.000Z</published>
-    <updated>2018-10-31T11:29:05.591Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;shell命令-是一种运行在linux系统上的语言-便于直接操作文件&quot;&gt;&lt;a href=&quot;#shell命令-是一种运行在linux系统上的语言-便于直接操作文件&quot; class=&quot;headerlink&quot; title=&quot;shell命令 
-        
-      
-    
-    </summary>
-    
-      <category term="Markdown" scheme="https://github.com/wamk/wamk.github.io.git/categories/Markdown/"/>
-    
-    
-      <category term="shell" scheme="https://github.com/wamk/wamk.github.io.git/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git 命令 学习</title>
-    <link href="https://github.com/wamk/wamk.github.io.git/2018/09/19/git-ming-ling-xue-xi/"/>
-    <id>https://github.com/wamk/wamk.github.io.git/2018/09/19/git-ming-ling-xue-xi/</id>
-    <published>2018-09-19T12:25:45.000Z</published>
-    <updated>2018-10-31T11:29:01.966Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;刚开始 初始化 一个 目录的时候
-
-
- （注意编写文件的时候  选择  其他编辑工具  ue 或者 notepaid 格式选择utf-8）
-然后
-&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="git" scheme="https://github.com/wamk/wamk.github.io.git/tags/git/"/>
     
   </entry>
   

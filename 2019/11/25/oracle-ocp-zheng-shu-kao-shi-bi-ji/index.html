@@ -210,6 +210,14 @@
     <div class="card">
         <div class="card-content article-info">
             
+            <div class="article-tag">
+                
+                <a href="/tags/OCP/" target="_blank">
+                    <span class="chip bg-color">OCP</span>
+                </a>
+                
+            </div>
+            
             <div class="post-info">
                 
 
@@ -221,7 +229,149 @@
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h3 id="第一天-oracle-程序安装"><a href="#第一天-oracle-程序安装" class="headerlink" title="第一天  oracle 程序安装"></a>第一天  oracle 程序安装</h3><p><strong>1.内存和磁盘空间检查</strong></p>
+<p>至少 1.0 GB 的物理内存</p>
+<p><strong>grep MemTotal /proc/meminfo</strong></p>
+<p>交换分区要求如下</p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps1.jpg" alt="img"> </p>
+<p><strong>grep SwapTotal /proc/meminfo</strong></p>
+<p>/tmp 需求：</p>
+<p> 至少1.0 GB大小</p>
+<p><strong>2.安装oracle运行需要的软件包</strong></p>
+<p>yum -y  install binutils </p>
+<p>yum -y install compat* </p>
+<p>yum -y install gcc*  </p>
+<p>yum -y install glibc* </p>
+<p>yum -y install elfutils-libelf </p>
+<p>yum -y install ksh  </p>
+<p>yum -y install libgcc* </p>
+<p>yum -y install libstdc++* </p>
+<p>yum -y install libaio*  </p>
+<p>yum -y install make </p>
+<p>yum -y install sysstat</p>
+<p>yum -y install xhost  </p>
+<p>yum -y install xclock </p>
+<p>yum -y install unixODBC* </p>
+<p>yum -y install mpfr </p>
+<p>yum -y install libXi </p>
+<p>yum -y install libXtst</p>
+<p>yum -y install elfutils-libelf-devel</p>
+<p><strong>3.操作系统环境配置</strong></p>
+<p>3.1修改hosts文件</p>
+<p>vi /etc/hosts</p>
+<p>192.168.195.131 ocptest</p>
+<p>3.2selinux配置</p>
+<p>vi /etc/selinux/config</p>
+<p>SELINUX=Permissive  或者 SELINUX=disabled</p>
+<p>3.3建立用户</p>
+<p>groupadd -g 1001 oinstall</p>
+<p>groupadd -g 1002 dba</p>
+<p>useradd -u 502 -g oinstall -G dba oracle</p>
+<p>passwd oracle</p>
+<p>3.4目录建立</p>
+<p>mkdir -p /u01/app/oracle/product/11.2.0/db_1</p>
+<p>chown -R oracle:oinstall /u01/app/</p>
+<p>chmod -R 775 /u01/app/</p>
+<p>3.5oracle用户profile文件配置</p>
+<p>vi /home/oracle/.bash_profile</p>
+<p># .bash_profile</p>
+<p># Get the aliases and functions</p>
+<p>if [ -f ~/.bashrc ]; then</p>
+<p>​    . ~/.bashrc</p>
+<p>fi</p>
+<p># User specific environment and startup programs</p>
+<p>PATH=$PATH:$HOME/bin</p>
+<p>export PATH</p>
+<p>export ORACLE_SID=orcl</p>
+<p>export ORACLE_BASE=/u01/app/oracle</p>
+<p>export ORACLE_HOME=$ORACLE_BASE/product/11.2.0/db_1</p>
+<p>export PATH=$ORACLE_HOME/bin:$PATH</p>
+<p>export LD_LIBRARY_PATH=$ORACLE_HOME/lib</p>
+<p>export NLS_LANG=”AMERICAN_AMERICA.ZHS16GBK”</p>
+<p>3.6内核参数调整</p>
+<p>vi /etc/sysctl.conf</p>
+<p>kernel.shmall =2097152</p>
+<p>kernel.shmmax = 68719476736</p>
+<p>kernel.shmmni = 4096</p>
+<p>kernel.sem = 250 32000 100 128</p>
+<p>fs.file-max = 6815744</p>
+<p>fs.aio-max-nr = 1048576</p>
+<p>net.ipv4.ip_local_port_range = 9000 65500</p>
+<p>net.core.rmem_default = 262144</p>
+<p>net.core.rmem_max = 4194304</p>
+<p>net.core.wmem_default = 262144</p>
+<p>net.core.wmem_max = 1048576</p>
+<p>执行如下命令生效：</p>
+<p>sysctl -p</p>
+<p>3.7limits配置</p>
+<p>vi /etc/security/limits.conf</p>
+<p>oracle soft nproc 2047 </p>
+<p>oracle hard nproc 16384</p>
+<p>oracle soft nofile 1024</p>
+<p>oracle hard nofile 65536 </p>
+<p>oracle soft stack 10240</p>
+<p>3.8pam调整</p>
+<p>echo “session required pam_limits.so” &gt;&gt;/etc/pam.d/login</p>
+<p>3.9关闭防火墙</p>
+<p>service iptables stop </p>
+<p>chkconfig iptables off</p>
+<p>Chown oracle:oinstall 文件</p>
+<p><strong>4.开始安装</strong></p>
+<p><strong>./runInstaller</strong></p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps2.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps3.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps4.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps5.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps6.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps7.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps8.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps9.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps10.jpg" alt="img"> </p>
+<p>yum -y install elfutils-libelf*</p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps11.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps12.jpg" alt="img"> </p>
+<p><strong>登入到root用户执行两个脚本</strong></p>
+<p>sh /u01/app/oraInventory/orainstRoot.sh</p>
+<p>sh /u01/app/oracle/product/11.2.0/db_1/root.sh</p>
+<p>Netca</p>
+<p>配置监听</p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps13.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps14.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps15.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps16.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps17.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps18.jpg" alt="img"> </p>
+<p>启动监听</p>
+<p>dbca创建数据库：</p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps19.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps20.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps21.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps22.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps23.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps24.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps25.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps26.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps27.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps28.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps29.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps30.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml48108\wps31.jpg" alt="img"> </p>
+<h4 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h4><ol>
+<li>DML</li>
+</ol>
+<ol start="2">
+<li><p>DDL</p>
+</li>
+<li><p>DCL</p>
+</li>
+<li><p>DQL</p>
+<p>注意事项:</p>
+<p>根据不同的字符类型，oracle varchar2（x） 会占用不同的字节</p>
+</li>
+</ol>
+<p>   sysdate 服务器时间</p>
+<p>   current_date 客户端时间</p>
+
             </div>
             <hr/>
 
